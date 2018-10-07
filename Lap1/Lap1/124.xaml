@@ -1,0 +1,31 @@
+﻿<Page
+    x:Class="Lap1.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Lap1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Background="Black">
+
+        <Rectangle x:Name="Canvas"  Height="150"  Width="50" Fill="Red" HorizontalAlignment="Stretch" Margin="725,365,725,425" Grid.Row="1" VerticalAlignment="Stretch"/>
+        <Rectangle Margin="1090,104,285,739" Fill="Blue" HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Stretch"/>
+        <Rectangle Margin="1090,336,285,504" Fill="Green" RenderTransformOrigin="0.521,0.779" HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Stretch"/>
+
+        <Rectangle Margin="1090,540,285,299" Fill="Red" RenderTransformOrigin="0.496,0.571" HorizontalAlignment="Stretch" Grid.Row="1" VerticalAlignment="Stretch"/>
+        <Rectangle Margin="1090,736,285,103" Fill="Yellow" Grid.Row="1"/>
+        <Rectangle HorizontalAlignment="Left" Height="400" Margin="96,8,0,0" Grid.Row="1" VerticalAlignment="Top" Width="150" Fill="Blue"/>
+        <Rectangle HorizontalAlignment="Left" Height="50" Margin="272,156,0,0" VerticalAlignment="Top" Width="150" Fill="Red"/>
+        <Rectangle HorizontalAlignment="Left" Height="150" Margin="464,112,0,0" VerticalAlignment="Top" Width="150" Fill="Green"/>
+        <Rectangle HorizontalAlignment="Left" Height="300" Margin="108,592,0,0" VerticalAlignment="Top" Width="150" Fill="Red"/>
+        <Rectangle HorizontalAlignment="Left" Height="180" Margin="452,660,0,0" VerticalAlignment="Top" Width="150" Fill="Yellow"/>
+
+
+
+
+
+
+    </Grid>
+</Page>

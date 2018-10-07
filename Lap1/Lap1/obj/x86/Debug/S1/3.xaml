@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="Lap1.BlankPage1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Lap1"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid x:ConnectionId='2' x:Name="MyName" Background="Beige" Opacity="10" Visibility="Visible">
+        <Button Content="Click Me 1" HorizontalAlignment="Left" Margin="59,27,0,0" VerticalAlignment="Top"   Height="126" Width="256" Background="Blue"/>
+        <Button Content="Click Me 2" HorizontalAlignment="Left" Margin="331,189,0,0" VerticalAlignment="Top" Height="126" Width="256" Background="Blue"/>
+        <Button Content="Click Me 3" HorizontalAlignment="Left" Margin="916,27,0,0" VerticalAlignment="Top" Height="126" Width="256" Background="Blue"/>
+        <Button Content="Click Me 4" HorizontalAlignment="Left" Margin="331,27,0,0" VerticalAlignment="Top" Height="126" Width="256" Background="Blue"/>
+        <Button Content="Click Me 5" HorizontalAlignment="Left" Margin="620,27,0,0" VerticalAlignment="Top" Height="126" Width="256" Background="Blue"/>
+        <Button Content="Click Me 6" HorizontalAlignment="Left" Margin="620,189,0,0" VerticalAlignment="Top" Height="126" Width="256" Background="Blue"/>
+
+        <Button Content="Click Me 7" HorizontalAlignment="Left" Margin="916,189,0,0" VerticalAlignment="Top" Height="126" Width="256" Background="Blue"/>
+        <Button Content="Click Me 8" HorizontalAlignment="Left" Margin="59,188,0,0" VerticalAlignment="Top" Height="126" Width="256" Background="Blue"/>
+       
+
+
+
+    </Grid>
+</Page>
+
